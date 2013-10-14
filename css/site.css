@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Semibold.otf");
+  font-weight: 600;
+}
+
 ul {
     padding-left: 2em;
     list-style-position: inside;
@@ -5,10 +22,26 @@ ul {
 
 html, body {
     background-color: rgb(250, 250, 250);
+    background-image: url(../img/bg.png);
+    font: 16px "Source Sans", helvetica, arial, sans-serif;
+    font-weight: 200;
 }
 
-.subtitle {
+.subtitle,
+.subtitle--align-right {
     font-style: italic;
+    background: rgba(255,255,255,.4);
+    padding: .2rem;
+}
+
+.subtitle img,
+.subtitle--align-right img {
+  max-width: 20px;
+  margin:0 .5rem;
+}
+
+.subtitle--align-right {
+  text-align: right !important;
 }
 
 #content {
@@ -27,8 +60,10 @@ html, body {
 }
 
 .title {
-    text-shadow: 1px 1px 5px #808080;
     color: #970000;
+    letter-spacing:-2px;
+    font-weight:800;
+    text-shadow:0 1px 0 rgba(255,255,255,.4);
 }
 
 .subtitle {
@@ -38,5 +73,8 @@ html, body {
 
 h3 {
     color: #970000;
+    text-shadow:0 1px 0 rgba(255,255,255,.4);
+    letter-spacing:-2px;
+    font-weight:200;
 }
 
