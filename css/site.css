@@ -81,4 +81,10 @@ h3 {
     letter-spacing:-2px;
     font-weight:200;
 }
-
+.team tr td {
+    vertical-align: top;
+    width: 25%;
+}
+.team h4 {
+    font-size: 1.1em;
+}
