@@ -108,3 +108,11 @@ h3 {
   margin-bottom: 2em;
 }
 
+.face {
+    margin: 8px;
+    border: 1px solid silver;
+    float: right;
+}   
+.face-left {
+    float: left;
+}   
